@@ -1,6 +1,8 @@
-apk add neovim git curl 
+apk add neovim git curl zsh
 apk add gcc musl-dev
-apk add clang clang-dev python3 py3-pip go npm nodejs
+apk add clang clang-dev python3 py3-pip python3-dev go npm nodejs
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 mkdir -p $HOME/.config/nvim
 

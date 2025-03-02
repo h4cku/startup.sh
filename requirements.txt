@@ -1,2 +1,6 @@
 numpy
 pandas
+jupyterlab
+fastapi
+uvicorn
+flask
