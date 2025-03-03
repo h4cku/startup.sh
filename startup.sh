@@ -1,8 +1,7 @@
 apk add neovim git curl zsh
 apk add gcc musl-dev
-apk add clang clang-dev python3 py3-pip python3-dev go npm nodejs
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+apk add python3 py3-pip go npm nodejs
+apk add clang clang-dev python3-dev ripgrep linux-headers
 
 mkdir -p $HOME/.config/nvim
 
@@ -11,3 +10,5 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 git clone https://github.com/elvin-mark/init.vim $HOME/.config/nvim
 pip3 install -r requirements.txt  --break-system-packages
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
