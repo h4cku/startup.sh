@@ -1,8 +1,9 @@
-apk add neovim git curl zsh
+apk add neovim git curl zsh make
 apk add gcc musl-dev
 apk add python3 py3-pip go npm nodejs
 apk add clang clang-dev python3-dev ripgrep linux-headers
 apk add busybox-extras ngrep netcat-openbsd socat
+apk add nasm gdb
 
 mkdir -p $HOME/.config/nvim
 
