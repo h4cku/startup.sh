@@ -1,8 +1,8 @@
 apt update
 apt install git curl zsh make
-apt install ngrep netcat-openbsd socat
+apt install ngrep netcat-openbsd socat telnet
 apt install neovim ripgrep
-apt install nasm gcc gdb clang-format
+apt install nasm gcc gdb clang-format clangd
 apt install python3 python3-pip golang npm nodejs
 
 mkdir -p $HOME/.config/nvim
