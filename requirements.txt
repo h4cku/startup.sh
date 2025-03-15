@@ -1,6 +1,9 @@
 black
 numpy
 pandas
+scipy
+sympy
+matplotlib
 jupyterlab
 fastapi
 uvicorn
