@@ -1,5 +1,5 @@
 apt update
-apt install git curl zsh make
+apt install git curl zsh make vim
 apt install ngrep netcat-openbsd socat telnet
 apt install neovim ripgrep
 apt install nasm gcc gdb clang-format clangd
