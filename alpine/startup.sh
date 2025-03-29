@@ -4,6 +4,7 @@ apk add python3 py3-pip go npm nodejs
 apk add clang clang-dev python3-dev ripgrep linux-headers
 apk add busybox-extras ngrep netcat-openbsd socat
 apk add nasm gdb
+# apk add kubectl docker # (Optional)
 
 mkdir -p $HOME/.config/nvim
 
