@@ -12,4 +12,6 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 git clone https://github.com/elvin-mark/init.vim $HOME/.config/nvim
 
+pip3 install -r requirements.txt  --break-system-packages
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
