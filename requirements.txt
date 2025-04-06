@@ -3,8 +3,10 @@ numpy
 pandas
 scipy
 sympy
+scikit-learn
 matplotlib
 jupyterlab
 fastapi
 uvicorn
 flask
+# torch
