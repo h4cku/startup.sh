@@ -1,4 +1,4 @@
-apk add neovim git curl zsh make vim
+apk add neovim git curl zsh make vim tmux
 apk add gcc musl-dev
 apk add python3 py3-pip go npm nodejs
 apk add clang clang-dev python3-dev ripgrep linux-headers
