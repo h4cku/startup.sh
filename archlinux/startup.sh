@@ -1,4 +1,4 @@
-pacman -Syu git curl zsh make vim
+pacman -Syu git curl wget zsh make vim unzip
 pacman -Syu ngrep socat inetutils nmap
 pacman -Syu neovim ripgrep
 pacman -Syu nasm gcc gdb clang
