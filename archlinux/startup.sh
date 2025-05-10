@@ -1,9 +1,10 @@
 pacman -Syu git curl wget zsh make vim unzip
-pacman -Syu ngrep socat inetutils nmap
+pacman -Syu ngrep socat inetutils nmap tcpdump
 pacman -Syu neofetch htop
 pacman -Syu neovim ripgrep tmux
 pacman -Syu nasm gcc gdb clang
 pacman -Syu python python-pip go npm nodejs
+pacman -Syu cmus w3m
 
 mkdir -p $HOME/.config/nvim
 
