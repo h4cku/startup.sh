@@ -41,3 +41,15 @@ docker compose up ubuntu-dev-env
 ```sh
 docker exec -it ubuntu-dev-env bash
 ```
+
+## Extras
+
+You may consider installing the following tools:
+
+https://github.com/unixorn/fzf-zsh-plugin
+
+https://github.com/zsh-users/zsh-autosuggestions
+
+https://github.com/zsh-users/zsh-syntax-highlighting
+
+https://github.com/romkatv/powerlevel10k

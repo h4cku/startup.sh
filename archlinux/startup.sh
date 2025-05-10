@@ -1,5 +1,6 @@
 pacman -Syu git curl wget zsh make vim unzip
 pacman -Syu ngrep socat inetutils nmap
+pacman -Syu neofetch htop
 pacman -Syu neovim ripgrep
 pacman -Syu nasm gcc gdb clang
 pacman -Syu python python-pip go npm nodejs
