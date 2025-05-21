@@ -15,4 +15,6 @@ git clone https://github.com/elvin-mark/init.vim $HOME/.config/nvim
 
 pip3 install -r requirements.txt  --break-system-packages
 
+npm install -g typescript typescript-language-server prettier
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
