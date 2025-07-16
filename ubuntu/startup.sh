@@ -1,10 +1,15 @@
 apt update
-apt install git curl zsh make vim
+apt install git curl zsh make vim unzip tree wget
 apt install ngrep netcat-openbsd socat telnet
-apt install neovim ripgrep tmux
+apt install ripgrep tmux
 apt install nasm gcc gdb clang-format clangd
 apt install python3 python3-pip golang npm nodejs
-apt install cmus w3m
+apt install cmus w3m btop
+
+# Install Neovim 0.11.3
+wget https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-linux-x86_64.tar.gz
+tar xzf nvim-linux-x86_64.tar.gz
+mv nvim-linux-x86_64 nvim && mv nvim /opt/
 
 mkdir -p $HOME/.config/nvim
 
