@@ -25,6 +25,7 @@ apt install -y \
 wget https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-linux-x86_64.tar.gz
 tar xzf nvim-linux-x86_64.tar.gz
 mv nvim-linux-x86_64 nvim && mv nvim /opt/
+ln -sf /opt/nvim/bin/nvim /usr/local/bin/nvim
 
 # === Create Neovim config directory ===
 mkdir -p $HOME/.config/nvim
