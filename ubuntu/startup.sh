@@ -4,7 +4,7 @@ apt update
 # === Essential CLI Tools ===
 apt install -y \
        git curl zsh make vim unzip tree wget \
-       tmux cmus w3m btop \
+       tmux cmus w3m btop htop jq bat \
        ripgrep
 
 # === Networking Tools ===
@@ -24,6 +24,7 @@ apt install -y \
 # === Install Neovim 0.11.3 (from GitHub release) ===
 wget https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-linux-x86_64.tar.gz
 tar xzf nvim-linux-x86_64.tar.gz
+rm nvim-linux-x86_64.tar.gz
 mv nvim-linux-x86_64 nvim && mv nvim /opt/
 ln -sf /opt/nvim/bin/nvim /usr/local/bin/nvim
 
