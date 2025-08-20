@@ -36,7 +36,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # === Clone personal Neovim config ===
-git clone https://github.com/elvin-mark/init.vim $HOME/.config/nvim
+git clone https://github.com/h4cku/init.vim $HOME/.config/nvim
 
 # === Install Python requirements ===
 pip3 install -r requirements.txt  --break-system-packages
